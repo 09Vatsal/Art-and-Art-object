@@ -1,0 +1,38 @@
+/* Top Header Styling */
+.top-header {
+    background-color: #bdb9b9;
+    padding: 15px 20px;
+    display: flex;
+    align-items: center;
+  }
+  
+  /* Logo Image */
+  .logo-img {
+    height: 50px;
+    width: auto;
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+  }
+  
+  /* Text next to Logo */
+  .header-text {
+    font-size: 28px;
+    font-weight: bold;
+    color: rgb(139, 0, 0);
+  }
+  
+  /* Navigation Links */
+  .navbar .nav-link {
+    color: rgb(139, 0, 0) !important;
+    font-weight: bold;
+  }
+  
+  /* Hover effect */
+  .navbar .nav-link:hover {
+    color: darkred !important;
+  }
+  
