@@ -49,9 +49,11 @@
       <p> Name: Shivakumar Shrikantiah </p>
     Email: <a href="mailto:artandartobjects@gmail.com">artandartobjects@gmail.com</a>
     <hr class="bg-white">
-    <p>&copy; 2014-2025 Shivakumar Shrikantiah. All rights reserved.</p>
+<p>&copy; 2014–<span id="year"></span> Shivakumar Shrikantiah. All rights reserved.</p>
     </div>
   </footer>
-  
+  <script>
+  document.getElementById("year").textContent = new Date().getFullYear();
+</script>
 </body>
 </html>
