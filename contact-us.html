@@ -42,9 +42,12 @@
   <footer class="bg-dark text-white text-center py-4 mt-5">
     <div class="container">
       <hr class="bg-white">
-    <p>&copy; 2014-2025 Shivakumar Shrikantiah. All rights reserved.</p>
+<p>&copy; 2014–<span id="year"></span> Shivakumar Shrikantiah. All rights reserved.</p>
     </div>
   </footer>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script>
+  document.getElementById("year").textContent = new Date().getFullYear();
+</script>
 </body>
 </html>
